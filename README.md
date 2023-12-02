@@ -1,7 +1,7 @@
 # hardml_final
 
 
-## Introduction
+# Introduction
 
 Searching for relevant documents to a given query is a well-known problem in the field of machine learning and information retrieval.
 QA Search is a Question-Answer search system designed to elevate your search experience. 
@@ -25,13 +25,13 @@ This repository is an example of a system that solves this problem.
 ![image](https://github.com/EugeneRomanov/hardml_final/assets/72860505/ba0c0ead-efb9-4950-aab7-9dafbf1ed5e5)
 
 
-## Indexes update
+# Indexes update
 
 ![image](https://github.com/EugeneRomanov/hardml_final/assets/72860505/810c785a-f643-4911-aae0-0db7fe13ae78)
 
 
 
-## CI/CD*
+# CI/CD*
 
 1. Build QASearch Docker Images: Builds Docker images for QASearch services (ranker, embedder, gateway, indexes) based on Dockerfiles
 2. Execute build and deploy scripts from utils directory: Navigates to the utils directory and executes any custom build and deploy scripts
