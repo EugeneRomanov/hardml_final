@@ -4,7 +4,7 @@
 **Introduction**
 
 Searching for relevant documents to a given query is a well-known problem in the field of machine learning and information retrieval.
-QA Search is a Question-Answer search system designed to elevate your search experience using techniques in Learning to Rank (LTR) with KNRM model. 
+QA Search is a Question-Answer search system designed to elevate your search experience. 
 
 This repository is an example of a system that solves this problem.
 
