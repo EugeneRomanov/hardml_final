@@ -9,7 +9,7 @@ QA Search is a Question-Answer search system designed to elevate your search exp
 This repository is an example of a system that solves this problem.
 
 
-## System
+# System
 
 1. Indexes: The Indexes service forms the backbone of QASearch, managing and organizing the vast repository of question-answer pairs
 
