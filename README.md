@@ -25,4 +25,12 @@ This repository is an example of a system that solves this problem.
 
 ![image](https://github.com/EugeneRomanov/hardml_final/assets/72860505/111e7ef2-f6e8-49e0-b7f9-d2f900d45ec2)
 
+**CI/CD**
+
+1. Build QASearch Docker Images: Builds Docker images for QASearch services (ranker, embedder, gateway, indexes) based on Dockerfiles
+2. Execute build and deploy scripts from utils directory: Navigates to the utils directory and executes any custom build and deploy scripts
+3. Run QASearch Tests: Executes tests to ensure the quality and functionality of QASearch services
+
+   ![image](https://github.com/EugeneRomanov/hardml_final/assets/72860505/f5348f30-279c-4ba6-90f8-5ef187808783)
+
 
