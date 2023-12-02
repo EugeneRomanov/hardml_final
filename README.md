@@ -22,8 +22,14 @@ This repository is an example of a system that solves this problem.
 5. Service Registry The Service Registry, powered by Redis, acts as a dynamic catalog of index services
 
 
+![image](https://github.com/EugeneRomanov/hardml_final/assets/72860505/ba0c0ead-efb9-4950-aab7-9dafbf1ed5e5)
 
-![image](https://github.com/EugeneRomanov/hardml_final/assets/72860505/111e7ef2-f6e8-49e0-b7f9-d2f900d45ec2)
+
+**Indexes update**
+
+![image](https://github.com/EugeneRomanov/hardml_final/assets/72860505/810c785a-f643-4911-aae0-0db7fe13ae78)
+
+
 
 **CI/CD**
 
