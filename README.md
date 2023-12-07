@@ -20,15 +20,11 @@ However, the construction and system design of such a system is not a simple mat
 
 # System
 
-1. Indexes: The Indexes service forms the backbone of QASearch, managing and organizing the vast repository of question-answer pairs
-
-2. Gateway: The Gateway service serves as the entry point for user queries, orchestrating communication between different services
-
-3. Ranker: The Ranker service leverages KNRM model to prioritize search results
-
-4. Embedder: The Embedder service is responsible for create vectorized samples, using use-large model from tf-serving
-
-5. Service Registry The Service Registry, powered by Redis, acts as a dynamic catalog of index services
+1. Gateaway: service through which all user requests pass.
+2. Ranker: ml moder for ranking search results. 
+3. Embedder: ml moder for embedding users requests. 
+4. Indexes: service for managing and organizing the vast repository of question-answer pairs 
+5. Service Registery: service holds URLs, port numbers, and cluster centers for each index.
 
 
 ![image](https://github.com/EugeneRomanov/hardml_final/assets/72860505/ba0c0ead-efb9-4950-aab7-9dafbf1ed5e5)
