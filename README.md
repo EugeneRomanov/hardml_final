@@ -13,6 +13,10 @@ Overall, QA Search System is an invaluable tool for anyone looking to find relev
 
 However, the construction and system design of such a system is not a simple matter. This repository is an example of what it might look like
 
+# Requirements for starting the system
+- A few virtual machines with Docker.
+- The host machine.
+- Tool for deployment and update scenarios.
 
 # System
 
