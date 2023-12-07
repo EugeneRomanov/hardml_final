@@ -32,8 +32,7 @@ However, the construction and system design of such a system is not a simple mat
 
 # Indexes update
 
-![image](https://github.com/EugeneRomanov/hardml_final/assets/72860505/810c785a-f643-4911-aae0-0db7fe13ae78)
-
+![image](https://github.com/EugeneRomanov/hardml_final/assets/72860505/49ac2a4f-739e-4a68-a3ad-3e8a6a96b61b)
 
 
 # CI/CD
