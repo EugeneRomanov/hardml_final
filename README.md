@@ -26,6 +26,8 @@ However, the construction and system design of such a system is not a simple mat
 4. Indexes: service for managing and organizing the vast repository of question-answer pairs 
 5. Service Registery: service holds URLs, port numbers, and cluster centers for each index.
 
+Each component of such a system can be deployed using Docker Swarm for easy scaling and use.
+
 
 ![image](https://github.com/EugeneRomanov/hardml_final/assets/72860505/ba0c0ead-efb9-4950-aab7-9dafbf1ed5e5)
 
