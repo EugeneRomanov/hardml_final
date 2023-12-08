@@ -42,15 +42,15 @@ To start the system, you first need to add environmental variables to the config
 * Hosts: available IP adresses for nodes
 * Data and сlusters: generated current information per user request and total number of clusters
 
+2. Data and nodes preparation.
+Settings for nodes and data. Delivery to nodes.
 
- fsdfsdf  
-3. ffsdf
-   fsdf
+3. Build images.
+Building images using the Docker registry.
 
-4. fsdfsd
-   fsdf
+# Deployment
 
-5. 
+After preparing the system settings, you can start deploying the system.
 
 
 ***************
