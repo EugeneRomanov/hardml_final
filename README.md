@@ -73,10 +73,17 @@ For example, a limit on the number of messages to the service per minute, restri
 6. The gateway sevice uses a ranker model for ranking and gets the ranked result. Different ML models can be used as a ranker: DSMM, DRMM, K-NRM, Conv-KNRM
 7. The user receives the result of the QA system's operation.
 
-***
+
 # Indexes update
 
-![image](https://github.com/EugeneRomanov/hardml_final/assets/72860505/49ac2a4f-739e-4a68-a3ad-3e8a6a96b61b)
+Each index cluster is updated one at a time. The duration of the update process should not affect system downtime. 
+Each individual index cluster update occurs as follows: the new version is started first, and then the old version is shut down.
+
+This can also be represented as follows:
+
+1. Launching a new version of the index cluster and registering in the service registry.
+2. Two cluster indexes have been working for some time. When a user makes a request, the gateway service selects the closest available cluster index.
+3. Checking the stability of the new index cluster. Disabling the old cluster and deleting all data from service registry.
 
 
 # CI/CD
