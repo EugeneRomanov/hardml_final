@@ -70,8 +70,8 @@ For example, a limit on the number of messages to the service per minute, restri
 * If the cluster is too far away, the search is not performed.
 * If the cluster is close, then a search is performed taking into account the restrictions on the available clusters.
 * The cosine distance metric can be used as a cluster and question index metric.
-6. The gateway sevice uses a ranker model for ranking and gets the ranked result. Different ML models can be used as a ranker: DSMM, DRMM, K-NRM, Conv-KNRM
-7. The user receives the result of the QA system's operation.
+5. The gateway sevice uses a ranker model for ranking and gets the ranked result. Different ML models can be used as a ranker: DSMM, DRMM, K-NRM, Conv-KNRM
+6. The user receives the result of the QA system's operation.
 
 
 # Indexes update
