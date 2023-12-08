@@ -88,6 +88,8 @@ This can also be represented as follows:
 
 # CI/CD
 
+Sample CI/CD pipeline
+
 1. Build QASearch Docker Images: Builds Docker images for QASearch services (ranker, embedder, gateway, indexes) based on Dockerfiles
 2. Execute build and deploy scripts from utils directory: Navigates to the utils directory and executes any custom build and deploy scripts
 3. Run QASearch Tests: Executes tests to ensure the quality and functionality of QASearch services
