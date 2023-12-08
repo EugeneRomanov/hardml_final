@@ -40,22 +40,40 @@ To start the system, you first need to add environmental variables to the config
 * Docker registry: IP adressess for the Docker registry.
 * Ports: unique port values for embedder, ranker, index and gateaway.
 * Hosts: available IP adresses for nodes
-* Data and сlusters: generated current information per user request and total number of clusters
+* Data and сlusters parameters: generated current information per user request and total number of clusters
 
 2. Data and nodes preparation.
-Settings for nodes and data. Delivery to nodes.
+* Preparation QA dataset for system.
+* Deffintion settings for nodes and data format.
+* Delivery final dataset to nodes.
 
-3. Build images.
-Building images using the Docker registry.
 
 # Deployment
 
 After preparing the system settings, you can start deploying the system.
 
+* Build images: building images using the Docker registry.
+* Indexes depoyment: creating a Docker Swarm service for each cluster using Redis settings adn data and clusters parameters from enviroment variables (config file).
+* Services deployment: deployment embedder, ranker and gateaway using parameters from enviroment variables (config file).
 
-***************
+Some restrictions may be placed on the operation of this system so that the system operates efficiently and does not become overloaded.
+For example, a limit on the number of messages to the service per minute, restrictions on storing information in the index depending on activity.
 
 
+# Working system pipeline
+
+1. User make a question request in QA search system.
+2. The gateway sevice checks the availability of indexes and data.
+3. The gateway sevice sends a request to the embedder service and receives the result back.
+4. The gateway sevice operates using the system infrastructure as follows:
+* Depending on the location of the cluster index from the original question, a search is performed.
+* If the cluster is too far away, the search is not performed.
+* If the cluster is close, then a search is performed taking into account the restrictions on the available clusters.
+* The cosine distance metric can be used as a cluster and question index metric.
+6. The gateway sevice uses a ranker model for ranking and gets the ranked result. Different ML models can be used as a ranker: DSMM, DRMM, K-NRM, Conv-KNRM
+7. The user receives the result of the QA system's operation.
+
+***
 # Indexes update
 
 ![image](https://github.com/EugeneRomanov/hardml_final/assets/72860505/49ac2a4f-739e-4a68-a3ad-3e8a6a96b61b)
