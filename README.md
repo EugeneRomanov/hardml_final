@@ -30,6 +30,30 @@ Each component of such a system can be deployed using Docker Swarm for easy scal
 
 ![image](https://github.com/EugeneRomanov/hardml_final/assets/72860505/29034297-c53c-4425-87a3-42bfa627469d)
 
+# System parameters
+
+1. Environment Variables.
+To start the system, you first need to add environmental variables to the config file.
+* Swarm manager: IP adressess of Docker Swarm Managers. 
+* Redis parameters: host, port and password for Redis. 
+* Docker registry: IP adressess for the Docker registry.
+* Ports: unique port values for embedder, ranker, index and gateaway.
+* Hosts: available IP adresses for nodes
+* Data and сlusters: generated current information per user request and total number of clusters
+
+
+ fsdfsdf  
+3. ffsdf
+   fsdf
+
+4. fsdfsd
+   fsdf
+
+5. 
+
+
+***************
+
 
 # Indexes update
 
