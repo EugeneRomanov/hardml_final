@@ -30,6 +30,7 @@ Each component of such a system can be deployed using Docker Swarm for easy scal
 
 ![image](https://github.com/EugeneRomanov/hardml_final/assets/72860505/29034297-c53c-4425-87a3-42bfa627469d)
 
+
 # System parameters
 
 1. Environment Variables.
