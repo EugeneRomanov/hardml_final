@@ -28,8 +28,7 @@ However, the construction and system design of such a system is not a simple mat
 
 Each component of such a system can be deployed using Docker Swarm for easy scaling and use.
 
-
-![image](https://github.com/EugeneRomanov/hardml_final/assets/72860505/ba0c0ead-efb9-4950-aab7-9dafbf1ed5e5)
+![image](https://github.com/EugeneRomanov/hardml_final/assets/72860505/29034297-c53c-4425-87a3-42bfa627469d)
 
 
 # Indexes update
